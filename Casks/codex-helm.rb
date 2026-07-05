@@ -7,7 +7,7 @@ cask "codex-helm" do
   desc "Native macOS app for managing Codex provider/model configuration"
   homepage "https://github.com/greenhandatsjtu/codex-config-desktop"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Codex Helm.app"
 
@@ -23,6 +23,6 @@ cask "codex-helm" do
 
     On first launch, macOS may block the app (unsigned).
     Right-click the app → Open, or run:
-      xattr -cr /Applications/Codex\ Helm.app
+      xattr -cr "/Applications/Codex Helm.app"
   EOS
 end
