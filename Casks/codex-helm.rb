@@ -1,6 +1,6 @@
 cask "codex-helm" do
-  version "0.1.0"
-  sha256 "c8827f87e58360ab3c04f09405b614fd8c61e82b4cf53621032efccd1703a6cb"
+  version "0.2.0"
+  sha256 "cb990f36d6cb10f9d758d9dac8331d87dcb4b9fd7ba2f722f82c52771c83cbf6"
 
   url "https://github.com/greenhandatsjtu/codex-helm-release/releases/download/v#{version}/codex-helm-#{version}.zip"
   name "Codex Helm"
